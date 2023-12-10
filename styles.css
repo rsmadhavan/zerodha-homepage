@@ -361,3 +361,55 @@ section:last-child{
   max-width:100%;
   box-sizing: border-box;
 }
+
+/* =========================================================================================== */
+.three{
+  flex-basis: 22%;
+  width: 22%;
+}
+
+footer .footer-logo{
+  padding: 10px 0;
+}
+
+footer .footer-logo img{
+  max-height: 20px;
+  width: auto;
+}
+
+.copyright{
+  margin: 0;
+  font-size: .8rem;
+}
+
+footer .social{
+  padding: 0;
+  margin-top: 15px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .main-footer li{
+  line-height: 2;
+}
+footer .social li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .main-footer .nav-head{
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+footer .main-footer li a{
+  color: #666;
+}
+footer .main-footer li a:hover{
+  color: #387ed1;
+}
