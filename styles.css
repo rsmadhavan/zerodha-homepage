@@ -73,7 +73,10 @@ body{
   font-weight: 400;
 }
 
-a{
+a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
   background-color: rgba(0,0,0,0);
 }
 
@@ -292,3 +295,25 @@ p{
   line-height: 1.8;
   margin-bottom: 15px;
 }
+
+ul.list-items{
+  padding-left: 20px;
+}
+
+/* Ecosystem section */
+.homepage section .ecosystem-image{
+  max-width: 850px;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.homepage section .demo-link{
+  margin-left: 24px;
+}
+
+.homepage .ecosystem a:hover{
+  color:#666;
+}
+
