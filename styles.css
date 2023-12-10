@@ -266,3 +266,29 @@ button, .button{
   border: 1px solid rgba(0,0,0,0) !important;
   border-radius: 3px;
 }
+
+/* Marketing section */
+.homepage section.marketing{
+  padding-top: 0;
+}
+
+.v-align{
+  align-items: center;
+  display: flex;
+}
+
+.six{
+  flex-basis: 48%;
+  width: 48%;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
