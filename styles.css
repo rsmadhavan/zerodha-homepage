@@ -313,7 +313,23 @@ ul.list-items{
   margin-left: 24px;
 }
 
-.homepage .ecosystem a:hover{
+.homepage a:hover{
   color:#666;
 }
 
+/* Pricing section */
+.around{
+  justify-content: space-around;
+}
+
+.homepage .pricing .pricing-box{
+  border: 1px solid #ccc;
+  padding: 0 25px;
+  min-height: 190px;
+  border-radius: 4px;
+}
+
+.homepage .pricing .pricing-box h1{
+  margin:0;
+  line-height: 2;
+}
