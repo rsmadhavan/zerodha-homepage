@@ -181,6 +181,10 @@ main{
 }
 
 /* Landing section */
+.homepage a:hover{
+  color:#666;
+}
+
 .homepage section.landing{
   margin-top: 10vh;
 }
@@ -266,8 +270,13 @@ button,.button,input[type=submit],input[type=reset],input[type=button]{
 button, .button{
   background-color: #387ed1;
   color: #fff;
-  border: 1px solid rgba(0,0,0,0) !important;
+  border: 1px solid rgba(0,0,0,0);
   border-radius: 3px;
+}
+
+button, .button:hover{
+  color: #fff !important;
+  background-color: rgba(0,0,0,0.9);
 }
 
 /* Marketing section */
@@ -311,10 +320,6 @@ ul.list-items{
 
 .homepage section .demo-link{
   margin-left: 24px;
-}
-
-.homepage a:hover{
-  color:#666;
 }
 
 /* Pricing section */
