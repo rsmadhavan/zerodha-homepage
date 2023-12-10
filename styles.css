@@ -171,3 +171,98 @@ img{
 .navbar #nav-icon3 span:nth-child(4){
   top: 12px;
 }
+
+/* =========================================================================================== */
+main{
+  display: block;
+}
+
+/* Landing section */
+.homepage section.landing{
+  margin-top: 10vh;
+}
+
+.homepage section{
+  padding: 0 20px 120px 20px;
+}
+
+/* 
+section:first-child{
+  padding: 100px 0;
+} 
+*/
+
+.text-center{
+  text-align: center;
+}
+
+.homepage section .landing-image{
+  margin-bottom: 60px;
+  max-height: 45vh;
+}
+
+img{
+  border-style:none;
+}
+
+/* user agent stylesheet
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} 
+*/
+
+section:first-child h1,section:first-child h2{
+  margin-bottom: 0;
+}
+
+h1{
+  font-size: 2.75rem;
+  line-height: 1.25;
+  margin: 0.67em 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top:0px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+section:first-child h5{
+  margin-top: 10px;
+}
+
+h5{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.homepage section.landing .button{
+  margin-top: 25px;
+}
+
+
+
+button,.button,input[type=submit],input[type=reset],input[type=button]{
+  display: inline-block;
+  padding: 10px 30px;
+  color: #555;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: rgba(0,0,0,0);
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button, .button{
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0,0,0,0) !important;
+  border-radius: 3px;
+}
